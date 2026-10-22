@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-cafe: #A67B5B;
+    --text-primary: #111111;
+    --text-secondary: #2B2B2B;
+    --card-surface: rgba(255, 255, 255, 0.15);
+    --card-hex: #FFFFFF26;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #A67B5B;
+    color: #111111;
+  }
+
+  body {
+    background-color: #A67B5B;
+    color: #111111;
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Bodoni Moda', 'Playfair Display', Didot, Georgia, serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom scrollbar for premium touch */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #8E6445;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a1b12;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #111111;
+}

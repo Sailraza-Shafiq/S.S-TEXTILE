@@ -1,0 +1,7 @@
+{
+  "name": "S.S — Modern Essentials",
+  "description": "Premium clothing brand website featuring modern streetwear, minimal silhouettes, and refined essentials in signature Cafe au Lait aesthetic.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
